@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		696C0E20269A4CD2003E2B45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E1F269A4CD2003E2B45 /* AppDelegate.swift */; };
+		696C0E24269A4CD2003E2B45 /* SampleUsageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E23269A4CD2003E2B45 /* SampleUsageVC.swift */; };
+		696C0E29269A4CD3003E2B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696C0E28269A4CD3003E2B45 /* Assets.xcassets */; };
+		696C0E2C269A4CD3003E2B45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696C0E2A269A4CD3003E2B45 /* LaunchScreen.storyboard */; };
+		696C0E34269A4F68003E2B45 /* TimeComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E33269A4F68003E2B45 /* TimeComponentView.swift */; };
+		696C0E37269A4FB8003E2B45 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E36269A4FB8003E2B45 /* UIView+Extension.swift */; };
+		696C0E3A269A50B7003E2B45 /* GlassTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E39269A50B7003E2B45 /* GlassTimeView.swift */; };
+		696C0E3C269A559D003E2B45 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E3B269A559D003E2B45 /* Time.swift */; };
+		696C0E40269A56FF003E2B45 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E3F269A56FF003E2B45 /* Constants.swift */; };
+		696C0E4B269A5BE2003E2B45 /* AndroidTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E4A269A5BE2003E2B45 /* AndroidTimeUITests.swift */; };
+		696C0E53269A8E0C003E2B45 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C0E52269A8E0C003E2B45 /* UIStackView+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		696C0E4D269A5BE2003E2B45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 696C0E14269A4CD2003E2B45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 696C0E1B269A4CD2003E2B45;
+			remoteInfo = AndroidTimeUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		696C0E1C269A4CD2003E2B45 /* AndroidTimeUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndroidTimeUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		696C0E1F269A4CD2003E2B45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		696C0E23269A4CD2003E2B45 /* SampleUsageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUsageVC.swift; sourceTree = "<group>"; };
+		696C0E28269A4CD3003E2B45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		696C0E2B269A4CD3003E2B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		696C0E2D269A4CD3003E2B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		696C0E33269A4F68003E2B45 /* TimeComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeComponentView.swift; sourceTree = "<group>"; };
+		696C0E36269A4FB8003E2B45 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		696C0E39269A50B7003E2B45 /* GlassTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassTimeView.swift; sourceTree = "<group>"; };
+		696C0E3B269A559D003E2B45 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		696C0E3F269A56FF003E2B45 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		696C0E48269A5BE2003E2B45 /* AndroidTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndroidTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		696C0E4A269A5BE2003E2B45 /* AndroidTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidTimeUITests.swift; sourceTree = "<group>"; };
+		696C0E4C269A5BE2003E2B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		696C0E52269A8E0C003E2B45 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		696C0E19269A4CD2003E2B45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696C0E45269A5BE2003E2B45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		696C0E13269A4CD2003E2B45 = {
+			isa = PBXGroup;
+			children = (
+				696C0E1E269A4CD2003E2B45 /* AndroidTimeUI */,
+				696C0E49269A5BE2003E2B45 /* AndroidTimeUITests */,
+				696C0E1D269A4CD2003E2B45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		696C0E1D269A4CD2003E2B45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				696C0E1C269A4CD2003E2B45 /* AndroidTimeUI.app */,
+				696C0E48269A5BE2003E2B45 /* AndroidTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		696C0E1E269A4CD2003E2B45 /* AndroidTimeUI */ = {
+			isa = PBXGroup;
+			children = (
+				696C0E2A269A4CD3003E2B45 /* LaunchScreen.storyboard */,
+				696C0E1F269A4CD2003E2B45 /* AppDelegate.swift */,
+				696C0E23269A4CD2003E2B45 /* SampleUsageVC.swift */,
+				696C0E3D269A55A1003E2B45 /* Model */,
+				696C0E38269A509E003E2B45 /* Views */,
+				696C0E3E269A56D4003E2B45 /* Helpers */,
+				696C0E35269A4FA6003E2B45 /* Extensions */,
+				696C0E28269A4CD3003E2B45 /* Assets.xcassets */,
+				696C0E2D269A4CD3003E2B45 /* Info.plist */,
+			);
+			path = AndroidTimeUI;
+			sourceTree = "<group>";
+		};
+		696C0E35269A4FA6003E2B45 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				696C0E52269A8E0C003E2B45 /* UIStackView+Extension.swift */,
+				696C0E36269A4FB8003E2B45 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		696C0E38269A509E003E2B45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				696C0E39269A50B7003E2B45 /* GlassTimeView.swift */,
+				696C0E33269A4F68003E2B45 /* TimeComponentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		696C0E3D269A55A1003E2B45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				696C0E3B269A559D003E2B45 /* Time.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		696C0E3E269A56D4003E2B45 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				696C0E3F269A56FF003E2B45 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		696C0E49269A5BE2003E2B45 /* AndroidTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				696C0E4A269A5BE2003E2B45 /* AndroidTimeUITests.swift */,
+				696C0E4C269A5BE2003E2B45 /* Info.plist */,
+			);
+			path = AndroidTimeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		696C0E1B269A4CD2003E2B45 /* AndroidTimeUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 696C0E30269A4CD3003E2B45 /* Build configuration list for PBXNativeTarget "AndroidTimeUI" */;
+			buildPhases = (
+				696C0E18269A4CD2003E2B45 /* Sources */,
+				696C0E19269A4CD2003E2B45 /* Frameworks */,
+				696C0E1A269A4CD2003E2B45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AndroidTimeUI;
+			productName = AndroidTimeUI;
+			productReference = 696C0E1C269A4CD2003E2B45 /* AndroidTimeUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		696C0E47269A5BE2003E2B45 /* AndroidTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 696C0E4F269A5BE2003E2B45 /* Build configuration list for PBXNativeTarget "AndroidTimeUITests" */;
+			buildPhases = (
+				696C0E44269A5BE2003E2B45 /* Sources */,
+				696C0E45269A5BE2003E2B45 /* Frameworks */,
+				696C0E46269A5BE2003E2B45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				696C0E4E269A5BE2003E2B45 /* PBXTargetDependency */,
+			);
+			name = AndroidTimeUITests;
+			productName = AndroidTimeUITests;
+			productReference = 696C0E48269A5BE2003E2B45 /* AndroidTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		696C0E14269A4CD2003E2B45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					696C0E1B269A4CD2003E2B45 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					696C0E47269A5BE2003E2B45 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 696C0E1B269A4CD2003E2B45;
+					};
+				};
+			};
+			buildConfigurationList = 696C0E17269A4CD2003E2B45 /* Build configuration list for PBXProject "AndroidTimeUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 696C0E13269A4CD2003E2B45;
+			productRefGroup = 696C0E1D269A4CD2003E2B45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				696C0E1B269A4CD2003E2B45 /* AndroidTimeUI */,
+				696C0E47269A5BE2003E2B45 /* AndroidTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		696C0E1A269A4CD2003E2B45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696C0E2C269A4CD3003E2B45 /* LaunchScreen.storyboard in Resources */,
+				696C0E29269A4CD3003E2B45 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696C0E46269A5BE2003E2B45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		696C0E18269A4CD2003E2B45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696C0E3C269A559D003E2B45 /* Time.swift in Sources */,
+				696C0E24269A4CD2003E2B45 /* SampleUsageVC.swift in Sources */,
+				696C0E20269A4CD2003E2B45 /* AppDelegate.swift in Sources */,
+				696C0E37269A4FB8003E2B45 /* UIView+Extension.swift in Sources */,
+				696C0E40269A56FF003E2B45 /* Constants.swift in Sources */,
+				696C0E53269A8E0C003E2B45 /* UIStackView+Extension.swift in Sources */,
+				696C0E3A269A50B7003E2B45 /* GlassTimeView.swift in Sources */,
+				696C0E34269A4F68003E2B45 /* TimeComponentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696C0E44269A5BE2003E2B45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696C0E4B269A5BE2003E2B45 /* AndroidTimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		696C0E4E269A5BE2003E2B45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 696C0E1B269A4CD2003E2B45 /* AndroidTimeUI */;
+			targetProxy = 696C0E4D269A5BE2003E2B45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		696C0E2A269A4CD3003E2B45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696C0E2B269A4CD3003E2B45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		696C0E2E269A4CD3003E2B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		696C0E2F269A4CD3003E2B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		696C0E31269A4CD3003E2B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3TQD9VLAQ;
+				INFOPLIST_FILE = AndroidTimeUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Sharma.AndroidTimeUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		696C0E32269A4CD3003E2B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3TQD9VLAQ;
+				INFOPLIST_FILE = AndroidTimeUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Sharma.AndroidTimeUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		696C0E50269A5BE2003E2B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3TQD9VLAQ;
+				INFOPLIST_FILE = AndroidTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Sharma.AndroidTimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndroidTimeUI.app/AndroidTimeUI";
+			};
+			name = Debug;
+		};
+		696C0E51269A5BE2003E2B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3TQD9VLAQ;
+				INFOPLIST_FILE = AndroidTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Sharma.AndroidTimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndroidTimeUI.app/AndroidTimeUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		696C0E17269A4CD2003E2B45 /* Build configuration list for PBXProject "AndroidTimeUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696C0E2E269A4CD3003E2B45 /* Debug */,
+				696C0E2F269A4CD3003E2B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		696C0E30269A4CD3003E2B45 /* Build configuration list for PBXNativeTarget "AndroidTimeUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696C0E31269A4CD3003E2B45 /* Debug */,
+				696C0E32269A4CD3003E2B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		696C0E4F269A5BE2003E2B45 /* Build configuration list for PBXNativeTarget "AndroidTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696C0E50269A5BE2003E2B45 /* Debug */,
+				696C0E51269A5BE2003E2B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 696C0E14269A4CD2003E2B45 /* Project object */;
+}
